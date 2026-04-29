@@ -1,5 +1,5 @@
 const express = require('express');
-const ytdl = require('ytdl-core');
+const ytdl = require('@distube/ytdl-core');
 const app = express();
 
 // This endpoint allows your app to request music
